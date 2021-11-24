@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # myapps
     'job',
-    'bootstrap4'
+    # 'bootstrap4'
 
 ]
 
