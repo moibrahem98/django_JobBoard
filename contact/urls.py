@@ -1,9 +1,9 @@
-# # from django.contrib import admin
+from django.urls import include, path
 
-# from . import views
-# from django.urls import path, include
-# app_name = 'contact'
+from . import views
 
-# urlpatterns = [
-#     path('', views.send_message, name='contact'),
-# ]
+app_name='contact'
+
+urlpatterns = [
+    path('',views.send_message , name='contact'),
+]
